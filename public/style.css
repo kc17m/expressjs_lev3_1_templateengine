@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    align-items: flex-start;
+    width: 90%;
+    margin: 2% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+article {
+    margin: 2%; 
+}
+
+figure {
+    height: 60%;
+}
+
+
+
+img {
+    width: 100%;
+   
+   }
+
+.bold {
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: unset;
+    font-size: .9rem;
+}
